@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SharedWebCredentials"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A Swift wrapper for the Shared Web Credentials API"
   s.description      = <<-DESC
                        The Shared Web Credentials API is used to store credentials
