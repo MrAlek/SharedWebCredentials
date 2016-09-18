@@ -52,7 +52,7 @@ public enum SharedWebCredentials {
         }
     }
 
-    public static func delete(for account: String, fqdn: String, completion: (ErrorType?) -> Void) {
+    public static func delete(account account: String, fqdn: String, completion: (ErrorType?) -> Void) {
         SecAddSharedWebCredential(fqdn, account, nil) { error in
             completion(error)
         }
